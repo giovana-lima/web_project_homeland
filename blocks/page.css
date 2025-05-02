@@ -4,11 +4,3 @@
   font-family: "Inter";
 }
 
-.content {
-  display: flex;
-  flex-direction: column;
-  /* max-width: fit-content; */
-  margin: 0 auto;
-  max-width: 984px;
-}
-
