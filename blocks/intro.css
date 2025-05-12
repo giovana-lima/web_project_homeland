@@ -1,0 +1,91 @@
+.intro {
+  width: 100%;
+  /* height: 482px; */
+  margin: 0 0 90px;
+  align-self: flex-start;
+  box-sizing: border-box;
+}
+
+.intro__title {
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 58px;
+  /* width: 830px; */
+  /* height: 116px; */
+  margin: 0 0 40px;
+}
+
+.intro__quote {
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: 200;
+  /* width: 737px; */
+  /* height: 68px; */
+  margin: 0 0 10px;
+}
+
+.intro__author {
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: 200;
+  /* width: 732px; */
+  /* height: 34px; */
+  text-align: end;
+  margin: 0 0 32px;
+}
+
+.intro__text {
+  font-size: 16px;
+  line-height: 163%;
+  font-weight: 200;
+  /* width: 721px; */
+  /* height: 182px; */
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    /* width: 720px;
+    height: 490px;
+    margin: 0 0 88px; */
+    padding: 0 24px;
+    margin-bottom: 88px;
+  }
+  .intro__title {
+    font-size: 45px;
+    font-weight: 900;
+    line-height: 49px;
+    /* width: 707px; */
+    margin: 0 0 50px;
+  }
+  .intro__quote {
+    /* width: 720px; */
+    margin: 0 0;
+  }
+  .intro__author {
+    /* width: 720px; */
+  }
+  .intro__text {
+    /* width: 720px; */
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro__title {
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 35px;
+    width: 288px;
+    margin: 0 0 40px;
+  }
+  .intro__quote {
+    line-height: 30px;
+    font-weight: 200;
+    width: 288px;
+  }
+  .intro__author {
+    width: 288px;
+  }
+  .intro__text {
+    width: 288px;
+  }
+}
