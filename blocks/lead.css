@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   margin: 0 auto;
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
 }
 
 .lead__title {
@@ -13,7 +13,7 @@
   /* width: 793px; */
   text-align: center;
   margin: 0 0 32px;
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
 }
 
 .lead__subtitle {
