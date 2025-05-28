@@ -22,6 +22,7 @@
   /* width: 737px; */
   /* height: 68px; */
   margin: 0 0 10px;
+  place-self: flex end;
 }
 
 .intro__author {
@@ -42,7 +43,7 @@
   /* height: 182px; */
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .intro {
     /* width: 720px;
     height: 490px;
@@ -69,23 +70,23 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 544px) {
   .intro__title {
     font-size: 32px;
     font-weight: 700;
     line-height: 35px;
-    width: 288px;
+    /* width: 288px; */
     margin: 0 0 40px;
   }
   .intro__quote {
     line-height: 30px;
     font-weight: 400;
-    width: 288px;
+    /* width: 288px; */
   }
   .intro__author {
-    width: 288px;
+    /* width: 288px; */
   }
   .intro__text {
-    width: 288px;
+    /* width: 288px; */
   }
 }
