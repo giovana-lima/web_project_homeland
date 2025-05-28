@@ -74,7 +74,7 @@
   width: 100%;
 }
 
-.place__website__heading {
+.place__website-heading {
   max-width: 85px;
   width: 100%;
   margin: 0 0 8px;
@@ -87,7 +87,7 @@
   text-transform: uppercase;
 }
 
-.place__website__artist {
+.place__website-artist {
   margin: 0;
   font-family: "Inter", sans-serif;
   font-weight: 400;
@@ -101,7 +101,7 @@
   margin: 0;
 }
 
-.place__paragraph__text {
+.place__website-text {
   max-width: 484px;
   width: 100%;
   margin: 0 0 25px;
@@ -133,7 +133,7 @@
     max-width: 340px;
     font-size: 16px;
   }
-  .place__paragraph__text {
+  .place__website-text {
     font-size: 16px;
     max-width: 352px;
   }
@@ -164,11 +164,11 @@
     margin: 0;
     margin: 0 16px 0;
   }
-  .place__website__heading {
+  .place__website-heading {
     font-size: 12px;
     margin-bottom: 8px;
   }
-  .place__website__artist {
+  .place__website-artist {
     font-size: 12px;
     margin-bottom: 8px;
   }
@@ -184,7 +184,7 @@
     grid-area: 4;
     margin: 0 16px 0;
   }
-  .place__paragraph__text {
+  .place__website-text {
     font-size: 16px;
     justify-self: center;
   }
