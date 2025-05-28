@@ -57,6 +57,12 @@
   align-self: start;
   transition: opacity 0.3s ease;
   white-space: nowrap;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 100%;
+  text-decoration: none;
+  color: inherit;
 }
 
 .place__nft-button:hover {
@@ -65,16 +71,6 @@
     rgba(2, 120, 254, 0.25) 0%,
     rgba(0, 58, 123, 0.25) 99.98%
   );
-}
-
-.place__nft {
-  max-width: 315px;
-  font-family: "Inter", sans-serif;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 100%;
-  text-decoration: none;
-  color: inherit;
 }
 
 .place__website {
@@ -143,8 +139,6 @@
   }
   .place__nft-button {
     max-width: 340px;
-  }
-  .place__nft {
     font-size: 16px;
   }
   .place__paragraph__text {
@@ -206,94 +200,7 @@
     max-width: 288px;
     margin: 0 16px 0;
     grid-area: 5;
-  }
-  .place__nft {
     font-size: 14px;
     line-height: 100%;
   }
 }
-
-/* @media screen and (max-width: 1024px) {
-  .place {
-    max-width: 720px;
-    width: 100%;
-    margin: 72px auto;
-    column-gap: 28px;
-    grid-template-rows: auto 340px auto;
-    max-height: 659px;
-  }
-  .place__image {
-    height: 340px;
-  }
-  .place__nft-button {
-    max-width: 352px;
-    max-height: 48px;
-  }
-  .place__paragraph {
-    max-width: 352px;
-  }
-  .place__paragraph__text {
-    font-size: 16px;
-  }
-  .place__title {
-    max-width: 340px;
-    font-size: 42px;
-    line-height: 46px;
-  }
-  .place__website {
-    max-width: 67px;
-  }
-  .place__website__artist {
-    font-size: 18px;
-  }
-  .place__website__heading {
-    max-width: 67px;
-  }
-} */
-
-/* @media screen and (max-width: 544px) {
-  .places {
-    max-width: 320px;
-    width: 100%;
-  }
-  .place {
-    max-width: 320px;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto auto auto auto auto;
-    row-gap: 30px;
-    margin: 50px auto;
-  }
-  .place__image {
-    width: 100%;
-    height: 320px;
-  }
-  .place__nft-button {
-    max-width: 288px;
-    font-size: 14px;
-    line-height: 100%;
-    text-align: center;
-  }
-  .place__nft {
-  }
-  .place__paragraph {
-  }
-  .place__paragraph__text {
-    max-width: 288px;
-    margin-bottom: 20px;
-  }
-  .place__title {
-    max-width: 288px;
-    font-size: 32px;
-    line-height: 35px;
-  }
-  .place__website {
-    max-width: 288px;
-  }
-  .place__website__artist {
-    max-width: 288px;
-  }
-  .place__website__heading {
-  }
-} */
