@@ -22,7 +22,7 @@
   /* width: 737px; */
   /* height: 68px; */
   margin: 0 0 10px;
-  place-self: flex end;
+  place-self: end;
 }
 
 .intro__author {
